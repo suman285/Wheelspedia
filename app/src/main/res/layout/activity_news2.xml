@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".news2">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:id="@+id/news2">
+            </ImageView>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="The problem with battery electric vehicles"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold">
+
+
+            </TextView>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="@string/we_are_putting_batteries_in_everything_from_scooters_to_suvs_and_calling_them_green_but_batteries_have_their_own_environmental_problems_fossil_fuels_are_the_worst_it_wouldn_t_be_a_stretch_to_blame_them_and_the_industries_they_have_enabled_for_pretty_much_the_entirety_of_our_spiraling_climate_meltdown_from_this_point_of_view_almost_anything_is_better_we_need_to_ditch_coal_and_oil_asap_no_matter_what_it_takes_at_the_same_time_we_should_be_taking_a_long_look_at_the_problems_with_batteries_battery_fires_the_use_of_child_labor_to_mine_rare_minerals_etc_so_they_don_t_become_yet_another_disaster_lithium_ion_batteries_especially_those_powering_most_e_bikes_and_scooters_need_to_improve_drastically_in_addition_to_long_charging_times_the_most_pressing_concern_is_catching_fire_lithium_ion_batteries_have_already_sparked_22_fires_that_caused_36_injuries_and_two_deaths_in_new_york_city_this_year_charlie_welch_ceo_and_co_founder_of_zapbatt_told_lifewire_via_email_ev_battery_life_batteries_are_fueling_ev_growth_from_giant_suvs_to_humble_electric_bikes_we_focus_on_the_good_aspects_that_they_can_be_recharged_there_are_no_local_emissions_electric_motors_are_silent_etc_but_we_also_ignore_the_problems_first_producing_batteries_has_a_significant_environmental_and_human_impact_until_a_battery_can_be_made_sustainably_from_both_a_human_and_environmental_perspective_the_growth_of_battery_use_won_t_be_sustainable_too_commonly_batteries_are_made_with_cobalt_which_is_a_highly_volatile_and_unsustainable_mineral_to_source_there_are_several_cobalt_mines_in_africa_particularly_in_the_congo_where_child_labor_is_all_too_common_ashish_gadnis_ceo_of_sustainable_sourcing_company_banqu_told_lifewire_via_email_and_even_after_manufacturing_the_lifecycle_of_a_battery_is_shorter_than_you_might_expect_because_many_e_bike_and_scooter_oems_use_cheaper_batteries_with_shorter_life_cycles_there_is_unfortunately_a_growing_mountain_of_e_waste_with_micro_mobility_operators_swapping_a_tsunami_of_conventional_lithium_ion_batteries_on_e_bikes_and_e_scooters_and_with_few_recycling_options_available_at_present_we_are_well_on_our_way_to_building_a_massive_battery_graveyard_and_squandering_the_rare_earth_minerals_used_to_manufacture_them_says_zappbat_s_welch_ev_battery_recycling_then_too_recycling_itself_has_an_impact_oftentimes_we_think_that_encouraging_recycling_is_the_catch_all_solution_to_making_the_material_more_sustainable_but_unfortunately_it_isn_t_recycling_programs_are_often_happening_at_these_very_mines_where_child_labor_is_rampant_so_until_a_battery_can_be_made_sustainably_from_both_a_human_and_environmental_perspective_the_growth_of_battery_use_won_t_be_sustainable_says_gadnis_a_worker_in_protective_clothing_loading_vehicle_batteries_into_a_bin_at_a_recycling_plant_monty_rakusen_getty_images_and_that_s_if_you_can_even_recycle_them_at_the_end_of_their_lives_batteries_can_become_pretty_toxic_many_batteries_and_solar_panel_parts_are_not_recyclable_which_obviously_increases_our_waste_generation_improperly_disposed_of_batteries_can_also_cause_soil_water_and_air_pollution_caio_bersot_energy_analyst_at_energyrates_ca_told_lifewire_via_email_alternatives_like_hydrogen_fuel_cells_one_other_option_is_hydrogen_it_s_not_perfect_of_course_and_it_would_require_a_distribution_network_similar_in_principle_to_that_of_gasoline_rather_than_using_our_existing_electricity_grid_but_the_advantage_is_that_refueling_can_be_faster_than_charging_a_car_you_can_fill_up_in_just_four_minutes_and_the_car_still_runs_on_electricity_and_produces_only_water_as_waste_hydrogen_fuel_cells_although_a_bit_more_expensive_than_electric_vehicles_have_a_smaller_impact_on_the_environment_as_they_only_emit_water_when_powered_with_hydrogen_however_all_vehicles_regardless_of_how_they_are_powered_will_require_multiple_resources_both_natural_and_manufactured_says_bersot_closeup_on_the_back_of_a_car_that_has_an_emblem_that_reads_hydrogen_fuel_cell_gchutka_getty_images_but_hydrogen_is_also_like_batteries_less_energy_dense_than_gas_so_you_need_to_carry_more_of_it_and_store_it_at_high_pressure_the_real_problem_is_that_we_have_built_some_societies_around_individual_vehicles_for_both_extended_and_short_distance_use_those_vehicles_are_far_too_big_a_hangover_from_the_plentiful_energy_of_cheap_gasoline_long_distance_journeys_are_best_made_on_electric_trains_that_don_t_run_on_batteries_while_shorter_trips_can_be_made_by_bike_or_public_city_transport_again_all_of_which_can_be_battery_free"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:textStyle="italic">
+
+
+            </TextView>
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

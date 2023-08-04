@@ -1,0 +1,2088 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".harrier">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.denzcoskun.imageslider.ImageSlider
+                        android:id="@+id/alto800_slider"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        app:iss_auto_cycle="true"
+                        app:iss_corner_radius="10"
+                        app:iss_delay="1000"
+                        app:iss_period="1000"
+                        app:iss_title_background="@drawable/default_gradient" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tata Harrier\n\nRs.15 - 24.07 Lakh*"
+                android:textSize="30dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Key Specs of Tata Harrier"
+                android:textSize="20dp"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginTop="30dp">
+
+            </TextView>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="240dp">
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_marginStart="10dp"
+                            android:layout_width="100dp"
+                            android:layout_height="240dp"
+                            android:orientation="vertical">
+                            <ImageView
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:id="@+id/engine">
+
+                            </ImageView>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:text="Engine"
+                                android:textAlignment="center"
+                                android:textStyle="italic"
+                                android:textSize="20dp">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="80dp"
+                                android:text="1956 cc"
+                                android:textAlignment="center"
+                                android:textSize="20dp">
+
+                            </TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_marginStart="10dp"
+                            android:layout_width="100dp"
+                            android:layout_height="240dp"
+                            android:orientation="vertical">
+                            <ImageView
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:id="@+id/bhp">
+
+                            </ImageView>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:text="BHP"
+                                android:textAlignment="center"
+                                android:textStyle="italic"
+                                android:textSize="20dp">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="80dp"
+                                android:text="167.67 bhp"
+                                android:textAlignment="center"
+                                android:textSize="20dp">
+
+                            </TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_marginStart="10dp"
+                            android:layout_width="150dp"
+                            android:layout_height="240dp"
+                            android:orientation="vertical">
+                            <ImageView
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_gravity="center"
+                                android:id="@+id/Transmission">
+
+                            </ImageView>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:text="Transmission"
+                                android:textAlignment="center"
+                                android:textStyle="italic"
+                                android:textSize="20dp">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="80dp"
+                                android:text="Manual/Automatic"
+                                android:textAlignment="center"
+                                android:textSize="20dp">
+
+                            </TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_marginStart="10dp"
+                            android:layout_width="100dp"
+                            android:layout_height="240dp"
+                            android:orientation="vertical">
+                            <ImageView
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:id="@+id/Mileage">
+
+                            </ImageView>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:text="Mileage"
+                                android:textAlignment="center"
+                                android:textStyle="italic"
+                                android:textSize="20dp">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="80dp"
+                                android:text="14.6 - 16.35 kmpl"
+                                android:textAlignment="center"
+                                android:textSize="20dp">
+
+                            </TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_marginStart="10dp"
+                            android:layout_width="100dp"
+                            android:layout_height="240dp"
+                            android:orientation="vertical">
+                            <ImageView
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:id="@+id/Fuel">
+
+                            </ImageView>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:text="Fuel"
+                                android:textAlignment="center"
+                                android:textStyle="italic"
+                                android:textSize="20dp">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="80dp"
+                                android:text="Diesel"
+                                android:textAlignment="center"
+                                android:textSize="20dp">
+
+                            </TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_marginStart="10dp"
+                            android:layout_width="100dp"
+                            android:layout_height="240dp"
+                            android:orientation="vertical">
+                            <ImageView
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:id="@+id/bootspace">
+
+                            </ImageView>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:text="Boot Space"
+                                android:textAlignment="center"
+                                android:textStyle="italic"
+                                android:textSize="20dp">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="80dp"
+                                android:text="425 L (Liters)"
+                                android:textAlignment="center"
+                                android:textSize="20dp">
+
+                            </TextView>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Specification of Tata Harrier"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="20dp">
+
+            </TextView>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="450dp">
+
+                <TableLayout
+                    android:id="@+id/table_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp">
+
+                    <!-- Table Header -->
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#EEEEEE">
+
+                        <TextView
+                            android:layout_width="300dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Specification"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:padding="8dp" />
+
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Value"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:padding="8dp" />
+                    </TableRow>
+
+                    <!-- Table Rows -->
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="ARAI Mileage"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="14.6 kmpl"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Engine Displacement (cc)"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="1956"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Max Power (bhp@rpm)"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="167.67bhp@3750rpm"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Seating Capacity"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="5"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Fuel Tank Capacity"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="50.0"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="No. of cylinder"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="4"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Max Torque (nm@rpm)"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="350Nm@1750-2500rpm"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="TransmissionType"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Manual/Automatic"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Body Type"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="SUV"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+                    </TableRow>
+
+                    <!-- Repeat the above TableRow for remaining rows -->
+
+                </TableLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Variant of Tata Harrier"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="20dp">
+
+            </TextView>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableLayout
+                    android:id="@+id/varient_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp">
+
+                    <!-- Table Header -->
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#EEEEEE">
+
+                        <TextView
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Variant"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:padding="8dp" />
+
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Transmission"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:padding="8dp" />
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Fuel"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:padding="8dp" />
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Engine (cc)"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:padding="8dp" />
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Mileage"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:padding="8dp" />
+
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Ex-Showroom Price"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:padding="8dp" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <!--varient name-->
+                        <TextView
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Harrier XE"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--transmission type-->
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Manual"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--fuel type-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Diesel"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--engine cc-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="1956 cc"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--mileage-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="16.35 kmpl"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--ex-showroom price-->
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Rs.15 Lakh*"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <!--varient name-->
+                        <TextView
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Harrier XM"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--transmission type-->
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Manual"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--fuel type-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Diesel"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--engine cc-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="1956 cc"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--mileage-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="16.35 kmpl"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--ex-showroom price-->
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Rs.16.45 Lakh*"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <!--varient name-->
+                        <TextView
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Harrier XMS"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--transmission type-->
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Manual"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--fuel type-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Diesel"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--engine cc-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="1956 cc"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--mileage-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="16.35 kmpl"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--ex-showroom price-->
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Rs.17.70 Lakh*"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <!--varient name-->
+                        <TextView
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Harrier XT Plus"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--transmission type-->
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Manual"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--fuel type-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Diesel"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--engine cc-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="1956 cc"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--mileage-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="16.35 kmpl"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--ex-showroom price-->
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Rs.18.69 Lakh*"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <!--varient name-->
+                        <TextView
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Harrier XMAS AT"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--transmission type-->
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Automatic"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--fuel type-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Diesel"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--engine cc-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="1956 cc"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--mileage-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="14.6 kmpl"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--ex-showroom price-->
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Rs.19 Lakh*"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <!--varient name-->
+                        <TextView
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Harrier XT Plus Dark Edition"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--transmission type-->
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Manual"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--fuel type-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Diesel"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--engine cc-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="1956 cc"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--mileage-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="16.35 kmpl"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--ex-showroom price-->
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Rs.19.4 Lakh*"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <!--varient name-->
+                        <TextView
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Harrier XZ"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--transmission type-->
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Manual"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--fuel type-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Diesel"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--engine cc-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="1956 cc"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--mileage-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="16.35 kmpl"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--ex-showroom price-->
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Rs.19.24 Lakh*"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <!--varient name-->
+                        <TextView
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Harrier XZ Dual Tone"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--transmission type-->
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Manual"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--fuel type-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Diesel"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--engine cc-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="1956 cc"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--mileage-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="16.35 kmpl"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--ex-showroom price-->
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Rs.19.44 Lakh*"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <!--varient name-->
+                        <TextView
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Harrier XTA Plus AT"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--transmission type-->
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Automatic"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--fuel type-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Diesel"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--engine cc-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="1956 cc"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--mileage-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="14.6 kmpl"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--ex-showroom price-->
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Rs.19.99 Lakh*"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <!--varient name-->
+                        <TextView
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Harrier XTA Plus Dark Edition AT"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--transmission type-->
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Automatic"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--fuel type-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Diesel"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--engine cc-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="1956 cc"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--mileage-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="14.6 kmpl"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--ex-showroom price-->
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Rs.20.34 Lakh*"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <!--varient name-->
+                        <TextView
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Harrier XZA AT"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--transmission type-->
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Automatic"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--fuel type-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Diesel"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--engine cc-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="1956 cc"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--mileage-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="14.6 kmpl"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--ex-showroom price-->
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Rs.20.54 Lakh*"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <!--varient name-->
+                        <TextView
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Harrier XZA Dual Tone AT"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--transmission type-->
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Automatic"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--fuel type-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Diesel"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--engine cc-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="1956 cc"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--mileage-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="14.6 kmpl"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--ex-showroom price-->
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Rs.20.74 Lakh*"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <!--varient name-->
+                        <TextView
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Harrier XZ Plus"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--transmission type-->
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Manual"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--fuel type-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Diesel"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--engine cc-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="1956 cc"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--mileage-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="16.35 kmpl"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--ex-showroom price-->
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Rs.21.32 Lakh*"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <!--varient name-->
+                        <TextView
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Harrier XZ Plus Dual Tone"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--transmission type-->
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Manual"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--fuel type-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Diesel"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--engine cc-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="1956 cc"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--mileage-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="16.35 kmpl"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--ex-showroom price-->
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Rs.21.52 Lakh*"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <!--varient name-->
+                        <TextView
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Harrier XZ Plus Dark Edition"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--transmission type-->
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Manual"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--fuel type-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Diesel"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--engine cc-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="1956 cc"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--mileage-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="16.35 kmpl"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--ex-showroom price-->
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Rs.21.67 Lakh*"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <!--varient name-->
+                        <TextView
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Harrier XZ Plus Red Dark Edition"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--transmission type-->
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Manual"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--fuel type-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Diesel"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--engine cc-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="1956 cc"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--mileage-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="16.35 kmpl"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--ex-showroom price-->
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Rs.21.77 Lakh*"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <!--varient name-->
+                        <TextView
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Harrier XZA Plus AT"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--transmission type-->
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Automatic"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--fuel type-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Diesel"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--engine cc-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="1956 cc"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--mileage-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="14.6 kmpl"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--ex-showroom price-->
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Rs.22.62 Lakh*"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <!--varient name-->
+                        <TextView
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Harrier XZA Plus Dual Tone AT"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--transmission type-->
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Automatic"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--fuel type-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Diesel"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--engine cc-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="1956 cc"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--mileage-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="14.6 kmpl"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--ex-showroom price-->
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Rs.22.82 Lakh*"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <!--varient name-->
+                        <TextView
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Harrier XZA Plus Dark Edition AT"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--transmission type-->
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Automatic"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--fuel type-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Diesel"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--engine cc-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="1956 cc"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--mileage-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="14.6 kmpl"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--ex-showroom price-->
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Rs.22.97 Lakh*"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <!--varient name-->
+                        <TextView
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Harrier XZA Plus Red Dark Edition AT"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--transmission type-->
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Automatic"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--fuel type-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Diesel"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--engine cc-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="1956 cc"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--mileage-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="14.6 kmpl"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--ex-showroom price-->
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Rs.23.07 Lakh*"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <!--varient name-->
+                        <TextView
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Harrier XZA Plus (O) AT"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--transmission type-->
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Automatic"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--fuel type-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Diesel"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--engine cc-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="1956 cc"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--mileage-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="14.6 kmpl"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--ex-showroom price-->
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Rs.23.62 Lakh*"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <!--varient name-->
+                        <TextView
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Harrier XZA Plus (O) Dual Tone AT"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--transmission type-->
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Automatic"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--fuel type-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Diesel"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--engine cc-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="1956 cc"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--mileage-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="14.6 kmpl"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--ex-showroom price-->
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Rs.23.82 Lakh*"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <!--varient name-->
+                        <TextView
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Harrier XZA Plus (O) Dark Edition AT"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--transmission type-->
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Automatic"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--fuel type-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Diesel"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--engine cc-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="1956 cc"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--mileage-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="14.6 kmpl"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--ex-showroom price-->
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Rs.23.97 Lakh*"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <!--varient name-->
+                        <TextView
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Harrier XZA Plus (O) Red Dark Edition AT"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--transmission type-->
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Automatic"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--fuel type-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Diesel"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--engine cc-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="1956 cc"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--mileage-->
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="14.6 kmpl"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+
+                        <!--ex-showroom price-->
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Rs.24.07 Lakh*"
+                            android:textSize="16sp"
+                            android:padding="8dp" />
+                    </TableRow>
+
+
+
+
+                    <!-- Table Rows -->
+
+
+                    <!-- Repeat the above TableRow for remaining rows -->
+
+                </TableLayout>
+            </HorizontalScrollView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Stand Out Features"
+                android:textSize="20dp"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginTop="30dp">
+
+            </TextView>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="500dp">
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="400dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="400dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_marginStart="10dp"
+                            android:layout_width="300dp"
+                            android:layout_height="300dp"
+                            android:orientation="vertical">
+                            <ImageView
+                                android:layout_width="300dp"
+                                android:layout_height="200dp"
+                                android:id="@+id/sof1">
+
+                            </ImageView>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="100dp"
+                                android:text="Panoramic sunroof makes the cabin feel airier"
+                                android:textAlignment="center"
+                                android:textStyle="normal"
+                                android:textSize="20dp">
+
+                            </TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_marginStart="10dp"
+                            android:layout_width="300dp"
+                            android:layout_height="300dp"
+                            android:orientation="vertical">
+                            <ImageView
+                                android:layout_width="300dp"
+                                android:layout_height="200dp"
+                                android:id="@+id/sof2">
+
+                            </ImageView>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="100dp"
+                                android:text="JBL sound system is crisp and clear."
+                                android:textAlignment="center"
+                                android:textStyle="normal"
+                                android:textSize="20dp">
+
+                            </TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_marginStart="10dp"
+                            android:layout_width="300dp"
+                            android:layout_height="300dp"
+                            android:orientation="vertical">
+                            <ImageView
+                                android:layout_width="300dp"
+                                android:layout_height="200dp"
+                                android:id="@+id/sof3">
+
+                            </ImageView>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="100dp"
+                                android:text="7semi-digital instrument cluster looks unique."
+                                android:textAlignment="center"
+                                android:textStyle="normal"
+                                android:textSize="20dp">
+
+                            </TextView>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

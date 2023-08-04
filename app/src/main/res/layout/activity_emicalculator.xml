@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/purple_200"
+        android:text="Emi Calculator"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textAlignment="center">
+    </TextView>
+
+
+    <EditText
+        android:id="@+id/editTextLoanAmount"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Loan Amount"/>
+
+    <EditText
+        android:id="@+id/editTextInterestRate"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Interest Rate"/>
+
+    <EditText
+        android:id="@+id/editTextTenure"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tenure(in months)" />
+
+    <Button
+        android:id="@+id/buttonCalculate"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="Calculate"/>
+
+    <TextView
+        android:id="@+id/textViewEmi"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textViewTotalAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:textSize="20sp"/>
+
+</LinearLayout>

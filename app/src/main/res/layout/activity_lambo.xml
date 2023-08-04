@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Toyota">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/lambo1_click"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:id="@+id/lambo1"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="top"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="Huracan Evo">
+
+                </TextView>
+
+
+                <TextView
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="40dp"
+                    android:text="7 kmpl | 571-631 bhp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Rs. 3.22 Crore"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="80dp"
+                    android:text="onwards"
+                    android:textColor="@color/purple_200"
+                    android:textSize="13dp" />
+
+                <TextView
+
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Avg. Ex-Showroom price"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/lambo2_click"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:id="@+id/lambo2"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="top"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="Huracan Evo Spyder">
+
+                </TextView>
+
+
+                <TextView
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="40dp"
+                    android:text="7 kmpl | 602 bhp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Rs. 3.54 Crore"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="80dp"
+                    android:text="onwards"
+                    android:textColor="@color/purple_200"
+                    android:textSize="13dp" />
+
+                <TextView
+
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Avg. Ex-Showroom price"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/lambo3_click"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:id="@+id/lambo3"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="top"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="Huracan Tecnica">
+
+                </TextView>
+
+
+                <TextView
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="40dp"
+                    android:text="7 kmpl | 859 bhp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Rs. 4.04 Crore"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="80dp"
+                    android:text="onwards"
+                    android:textColor="@color/purple_200"
+                    android:textSize="13dp" />
+
+                <TextView
+
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Avg. Ex-Showroom price"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/lambo4_click"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:id="@+id/lambo4"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="top"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="Urus S">
+
+                </TextView>
+
+
+                <TextView
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="40dp"
+                    android:text="657 bhp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Rs. 4.18 Crore"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="80dp"
+                    android:text="onwards"
+                    android:textColor="@color/purple_200"
+                    android:textSize="13dp" />
+
+                <TextView
+
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Avg. Ex-Showroom price"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/lambo5_click"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:id="@+id/lambo5"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="top"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="Urus Performante">
+
+                </TextView>
+
+
+                <TextView
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="40dp"
+                    android:text="7 kmpl | 657 bhp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Rs. 4.22 Crore"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="80dp"
+                    android:text="onwards"
+                    android:textColor="@color/purple_200"
+                    android:textSize="13dp" />
+
+                <TextView
+
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Avg. Ex-Showroom price"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/lambo6_click"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:id="@+id/lambo6"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="top"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="Huracan STO">
+
+                </TextView>
+
+
+                <TextView
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="40dp"
+                    android:text="7 kmpl | 630 bhp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Rs. 4.99 Crore"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="80dp"
+                    android:text="onwards"
+                    android:textColor="@color/purple_200"
+                    android:textSize="13dp" />
+
+                <TextView
+
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Avg. Ex-Showroom price"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

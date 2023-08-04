@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".news3">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:id="@+id/news3">
+            </ImageView>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Maruti Suzuki at pole position in Rs 10 lakh-20 lakh SUV segment"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold">
+
+
+            </TextView>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="@string/maruti_suzuki_has_said_that_it_has_secured_a_19_percent_market_share_in_the_rs_10_lakh_to_rs_20_lakh_vehicle_category_in_fy2022_23_making_it_the_number_one_player_in_this_segment_this_puts_maruti_ahead_of_its_arch_rivals_like_hyundai_india_the_company_also_said_that_its_market_share_has_risen_to_22_percent_in_the_first_quarter_of_fy24_april_june_2023_thanks_to_more_demand_for_its_premium_suvs_maruti_currently_has_61_percent_market_share_in_the_sub_rs_10_lakh_category_market_share_in_rs_10_lakh_20_lakh_segment_quadrupled_in_last_few_years_maruti_s_nexa_outlets_sold_3_7_lakh_units_in_fy23_maruti_suzuki_has_over_2_lakh_pending_suv_orders_the_brand_has_traditionally_been_a_small_car_specialist_and_has_over_61_percent_segment_share_in_the_sub_rs_10_lakh_category_speaking_on_the_sidelines_of_the_invicto_s_launch_event_last_week_shashank_srivastava_executive_director_of_sales_marketing_at_maruti_suzuki_india_told_our_sister_publication_autocar_professional_whichever_segment_maruti_suzuki_enters_into_it_is_able_to_create_a_mark_only_the_types_of_products_and_the_consumers_change_the_company_understands_the_indian_consumers_well_and_is_able_to_break_into_a_fresh_and_new_customer_base_for_invicto_a_vehicle_priced_between_rs_25_lakh_and_rs_30_lakh_maruti_suzuki_was_able_to_gather_a_booking_of_over_6_800_units_in_the_last_few_weeks_the_company_is_sitting_on_an_order_book_of_over_2_lakh_suvs_predominantly_in_the_rs_10_lakh_20_lakh_bracket_its_market_share_in_this_price_segment_has_quadrupled_in_the_last_few_years_from_4_5_percent_to_20_22_percent_and_the_big_factor_behind_this_is_its_range_of_new_suvs_and_mpvs_that_it_has_introduced_since_2018_not_surprisingly_maruti_suzuki_is_already_the_second_largest_player_in_the_fast_growing_suv_space_just_a_few_hundred_units_behind_mahindra_mahindra_multiple_factors_pushing_the_shift_towards_higher_priced_vehicles_the_shift_towards_higher_priced_cars_has_been_driven_by_rising_commodity_costs_road_taxes_insurance_pay_out_and_increased_features_and_hence_the_average_price_of_cars_sold_in_india_has_breached_rs_9_lakh_10_lakh_from_an_average_of_about_rs_6_lakh_7_lakh_just_three_to_five_years_ago_it_is_a_fallacy_or_a_myth_that_maruti_can_t_sell_premium_cars_or_suvs_or_upgraders_prefer_other_brands_nexa_our_premium_channel_is_set_to_be_the_second_biggest_automotive_retailer_after_arena_on_a_base_of_3_7_lakh_units_in_fy23_we_have_so_far_grown_over_70_percent_and_the_sales_from_nexa_are_likely_to_cross_about_half_a_million_units_underscored_srivastava_regarding_the_rs_20_lakh_to_rs_30_lakh_segment_where_the_invicto_mpv_is_positioned_srivastava_said_the_segment_accounts_for_5_8_percent_of_the_indian_passenger_vehicle_market_and_a_majority_of_these_customers_are_not_first_time_car_buyers_naturally_given_the_higher_price_tag_the_share_of_first_time_car_buyers_is_very_small_in_this_segment_but_there_is_a_big_chunk_of_replacement_buyers_approximately_4_5_million_suvs_are_likely_to_be_sold_in_india_between_2020_to_2027_and_experts_reckon_that_this_upgraded_space_of_rs_20_lakh_to_rs_30_lakh_will_turn_out_to_be_the_new_battleground_for_automakers_to_fight_for_in_the_next_five_years"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:textStyle="italic">
+
+
+            </TextView>
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

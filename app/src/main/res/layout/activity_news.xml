@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".News">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/purple_200"
+        android:text="AUTO NEWS"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </TextView>
+
+    <ScrollView
+        android:layout_marginTop="50dp"
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/autonews1"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:id="@+id/news1"
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:textSize="15dp"
+                    android:layout_gravity="bottom"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="Exter ‘will have a good NCAP rating’: Hyundai COO Tarun Garg">
+
+                </TextView>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/autonews2"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:id="@+id/news2"
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:textSize="15dp"
+                    android:layout_gravity="bottom"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="The problem with battery electric vehicles">
+
+                </TextView>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/autonews3"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:id="@+id/news3"
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:textSize="15dp"
+                    android:layout_gravity="bottom"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="Maruti Suzuki at pole position in Rs 10 lakh-20 lakh SUV segment">
+
+                </TextView>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/autonews4"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:id="@+id/news4"
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:textSize="15dp"
+                    android:layout_gravity="bottom"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="Hyundai sells over 500 Ioniq 5 EVs in India">
+
+                </TextView>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/autonews5"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:id="@+id/news5"
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:textSize="15dp"
+                    android:layout_gravity="bottom"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="Here’s When BMW Will Announce Prices Of The Facelifted X5 In India">
+
+                </TextView>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/autonews6"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:id="@+id/news6"
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:textSize="15dp"
+                    android:layout_gravity="bottom"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="Tata Motors at record high after UK-arm Jaguar Land Rover's strong commentary on growth, cash flow">
+
+                </TextView>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/autonews7"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:id="@+id/news7"
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:textSize="15dp"
+                    android:layout_gravity="bottom"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="Lamborghini has sold its last fully gas-powered supercar">
+
+                </TextView>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,1419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/alto800_click"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:id="@+id/alto800"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="top"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="Alto 800">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="bottom"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:text="">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="40dp"
+                    android:text="22-31kmpl  40-48bhp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="80dp"
+                    android:text="RS. 3.53 LAKH"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="80dp"
+                    android:text="onwards"
+                    android:textColor="@color/purple_200"
+                    android:textSize="13dp" />
+
+                <TextView
+
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Avg. Ex-Showroom price"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/altok10_click"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:id="@+id/altok10"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="top"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="Alto K10">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="bottom"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:text="">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="40dp"
+                    android:text="24 kmpl | 56-66 bhp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Rs. 3.99 Lakh"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="80dp"
+                    android:text="onwards"
+                    android:textColor="@color/purple_200"
+                    android:textSize="13dp" />
+
+                <TextView
+
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Avg. Ex-Showroom price"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/spresso_click"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:id="@+id/spresso"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="top"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="S-Presso">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="bottom"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:text="">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="40dp"
+                    android:text="24-32 kmpl | 66 bhp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Rs. 4.27 Lakh
+"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="80dp"
+                    android:text="onwards"
+                    android:textColor="@color/purple_200"
+                    android:textSize="13dp" />
+
+                <TextView
+
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Avg. Ex-Showroom price"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Eeco_click"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:id="@+id/Eeco"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="top"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="Eeco">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="bottom"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:text="">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="40dp"
+                    android:text="19-26 kmpl | 71-80 bhp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Rs. 5.27 Lakh"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="80dp"
+                    android:text="onwards"
+                    android:textColor="@color/purple_200"
+                    android:textSize="13dp" />
+
+                <TextView
+
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Avg. Ex-Showroom price"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/celerio_click"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:id="@+id/celerio"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="top"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="Celerio">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="bottom"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:text="">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="40dp"
+                    android:text="24-35 kmpl | 56-66 bhp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Rs. 5.37 Lakh"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="80dp"
+                    android:text="onwards"
+                    android:textColor="@color/purple_200"
+                    android:textSize="13dp" />
+
+                <TextView
+
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Avg. Ex-Showroom price"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/wagonr_click"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:id="@+id/wagonr"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="top"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="Wagon R">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="bottom"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:text="">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="40dp"
+                    android:text="23-34 kmpl | 56-88 bhp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Rs. 5.55 Lakh"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="80dp"
+                    android:text="onwards"
+                    android:textColor="@color/purple_200"
+                    android:textSize="13dp" />
+
+                <TextView
+
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Avg. Ex-Showroom price"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/ignis_click"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:id="@+id/ignis"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="top"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="Ignis">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="bottom"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:text="">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="40dp"
+                    android:text="20 kmpl | 82 bhp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Rs. 5.84 Lakh"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="80dp"
+                    android:text="onwards"
+                    android:textColor="@color/purple_200"
+                    android:textSize="13dp" />
+
+                <TextView
+
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Avg. Ex-Showroom price"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/swift_click"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:id="@+id/swift"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="top"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="Swift">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="bottom"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:text="">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="40dp"
+                    android:text="22-30 kmpl | 76-89 bhp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Rs. 5.99 Lakh"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="80dp"
+                    android:text="onwards"
+                    android:textColor="@color/purple_200"
+                    android:textSize="13dp" />
+
+                <TextView
+
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Avg. Ex-Showroom price"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/dzire_click"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:id="@+id/dzire"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="top"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="Dzire">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="bottom"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:text="">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="40dp"
+                    android:text="23-24 kmpl | 76-89 bhp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Rs. 6.52 Lakh"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="80dp"
+                    android:text="onwards"
+                    android:textColor="@color/purple_200"
+                    android:textSize="13dp" />
+
+                <TextView
+
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Avg. Ex-Showroom price"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/baleno_click"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:id="@+id/baleno"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="top"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="Baleno">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="bottom"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:text="">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="40dp"
+                    android:text="22-30 kmpl | 76-88 bhp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Rs. 6.61 Lakh"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="80dp"
+                    android:text="onwards"
+                    android:textColor="@color/purple_200"
+                    android:textSize="13dp" />
+
+                <TextView
+
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Avg. Ex-Showroom price"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/fronx_click"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:id="@+id/fronx"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="top"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="Fronx">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="bottom"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:text="">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="40dp"
+                    android:text="20-22 kmpl | 89-99 bhp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Rs. 7.47 Lakh"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="80dp"
+                    android:text="onwards"
+                    android:textColor="@color/purple_200"
+                    android:textSize="13dp" />
+
+                <TextView
+
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Avg. Ex-Showroom price"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/brezza_click"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:id="@+id/brezza"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="top"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="Brezza">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="bottom"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:text="">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="40dp"
+                    android:text="19-25 kmpl | 87-102 bhp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Rs. 8.29 Lakh"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="80dp"
+                    android:text="onwards"
+                    android:textColor="@color/purple_200"
+                    android:textSize="13dp" />
+
+                <TextView
+
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Avg. Ex-Showroom price"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/ertiga_click"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:id="@+id/ertiga"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="top"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="Ertiga">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="bottom"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:text="">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="40dp"
+                    android:text="20-26 kmpl | 87-102 bhp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Rs. 8.64 Lakh"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="80dp"
+                    android:text="onwards"
+                    android:textColor="@color/purple_200"
+                    android:textSize="13dp" />
+
+                <TextView
+
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Avg. Ex-Showroom price"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/ciaz_click"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:id="@+id/ciaz"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="top"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="Ciaz">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="bottom"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:text="">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="40dp"
+                    android:text="20-28 kmpl | 89-103 bhp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Rs. 9.30 Lakh"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="80dp"
+                    android:text="onwards"
+                    android:textColor="@color/purple_200"
+                    android:textSize="13dp" />
+
+                <TextView
+
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Avg. Ex-Showroom price"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/grandvitara_click"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp"
+                    android:id="@+id/grandvitara">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="top"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="Grand Vitara">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="bottom"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:text="">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="40dp"
+                    android:text="19-27 kmpl | 87-102 bhp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Rs. 10.70 Lakh"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="80dp"
+                    android:text="onwards"
+                    android:textColor="@color/purple_200"
+                    android:textSize="13dp" />
+
+                <TextView
+
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Avg. Ex-Showroom price"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/xl6_click"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp"
+                    android:id="@+id/xl6">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="top"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="XL6">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="bottom"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:text="">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="40dp"
+                    android:text="20-26 kmpl | 87-102 bhp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Rs. 11.56 Lakh"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="80dp"
+                    android:text="onwards"
+                    android:textColor="@color/purple_200"
+                    android:textSize="13dp" />
+
+                <TextView
+
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Avg. Ex-Showroom price"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

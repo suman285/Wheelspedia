@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="410dp"
+        android:layout_height="100dp">
+
+        <ImageButton
+            android:layout_marginTop="10dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/suzukibutton" />
+
+        <ImageButton
+            android:layout_marginTop="10dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/hyundaibutton"
+            android:layout_marginLeft="15dp"/>
+
+        <ImageButton
+            android:layout_marginTop="10dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/tatabutton"
+            android:layout_marginLeft="15dp"/>
+
+        <ImageButton
+            android:layout_marginTop="10dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/mahindrabutton"/>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="410dp"
+        android:layout_height="100dp">
+        <ImageButton
+            android:layout_marginTop="10dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/kiabutton"/>
+
+        <ImageButton
+            android:layout_marginTop="10dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/jeepbutton"
+            android:layout_marginLeft="15dp" />
+
+        <ImageButton
+            android:layout_marginTop="10dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/mercbutton"
+            android:layout_marginLeft="15dp"/>
+
+        <ImageButton
+            android:layout_marginTop="10dp"
+            android:id="@+id/toyotabutton"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="15dp"/>
+    </LinearLayout>
+
+        <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="410dp"
+        android:layout_height="100dp">
+            <ImageButton
+                android:layout_marginTop="10dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="15dp"
+                android:id="@+id/mgbutton" />
+
+            <ImageButton
+                android:layout_marginTop="10dp"
+                android:id="@+id/audibutton"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="15dp"/>
+
+            <ImageButton
+                android:layout_marginTop="10dp"
+                android:id="@+id/bmwbutton"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="15dp"/>
+
+            <ImageButton
+                android:layout_marginTop="10dp"
+                android:id="@+id/vwbutton"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="15dp"/>
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="410dp"
+        android:layout_height="100dp">
+
+        <ImageButton
+            android:layout_marginTop="10dp"
+            android:id="@+id/skodabutton"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="15dp" />
+
+        <ImageButton
+            android:layout_marginTop="10dp"
+            android:id="@+id/landroverbutton"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="15dp"/>
+
+        <ImageButton
+            android:layout_marginTop="10dp"
+            android:id="@+id/jaguarbutton"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="15dp"/>
+
+        <ImageButton
+            android:layout_marginTop="10dp"
+            android:id="@+id/minibutton"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="15dp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="410dp"
+        android:layout_height="100dp">
+
+        <ImageButton
+            android:layout_marginTop="10dp"
+            android:id="@+id/nissanbutton"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="15dp" />
+
+        <ImageButton
+            android:layout_marginTop="10dp"
+            android:id="@+id/reanultbutton"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="15dp"/>
+
+        <ImageButton
+            android:layout_marginTop="10dp"
+            android:id="@+id/citroenbutton"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="15dp"/>
+
+        <ImageButton
+            android:layout_marginTop="10dp"
+            android:id="@+id/lexusbutton"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="15dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="410dp"
+        android:layout_height="100dp">
+
+        <ImageButton
+            android:layout_marginTop="10dp"
+            android:id="@+id/volvobutton"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="15dp" />
+
+        <ImageButton
+            android:layout_marginTop="10dp"
+            android:id="@+id/rrbutton"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="15dp"/>
+
+        <ImageButton
+            android:layout_marginTop="10dp"
+            android:id="@+id/porschebutton"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="15dp"/>
+
+        <ImageButton
+            android:layout_marginTop="10dp"
+            android:id="@+id/lambobuttonn"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="15dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="410dp"
+        android:layout_height="100dp">
+
+        <ImageButton
+            android:layout_marginTop="10dp"
+            android:id="@+id/isuzubutton"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="15dp" />
+
+        <ImageButton
+            android:layout_marginTop="10dp"
+            android:id="@+id/astnmrtnbutton"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="15dp"/>
+
+        <ImageButton
+            android:layout_marginTop="10dp"
+            android:id="@+id/msrtbutton"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="15dp"/>
+
+        <ImageButton
+            android:layout_marginTop="10dp"
+            android:id="@+id/bydbutton"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="15dp"/>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+

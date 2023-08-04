@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".news5">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:id="@+id/news5">
+            </ImageView>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Here’s When BMW Will Announce Prices Of The Facelifted X5 In India"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold">
+
+
+            </TextView>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Facelifted BMW X5 to be launched on July 14.\n
+Packs a minor exterior design refresh limited to lights, wheels and bumpers.\n
+Inside, it gets the carmaker’s spanking i-Drive 8 infotainment system.\n
+Likely to continue with existing 3-litre petrol and diesel engine options.\n
+Will command a premium over the current model priced from Rs 98.5 lakh (ex-showroom).\n
+BMW India has confirmed that the facelifted X5 luxury SUV will be launched on our shores on July 14. This will be the first major midlife update for this generation of the luxury SUV. BMW took the wraps off the facelifted version back in February this year and hasn’t wasted much time in bringing it here. And here are the changes it will pack. \nExterior design changes are minimal, but enough to give the X5 a breath of fresh air. At the front, the headlamps are now sleeker and the bumper has been revised, making it look a tad more aggressive now. In profile, you do get new design options for the alloys while the rear-end gets tweaked LED tail lamps and bumper. "
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:textStyle="italic">
+
+
+            </TextView>
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

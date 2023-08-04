@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".news7">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:id="@+id/news7">
+            </ImageView>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Lamborghini has sold its last fully gas-powered supercar"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold">
+
+
+            </TextView>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Lamborghini CEO Stephan Winkelmann told the German newspaper Welt on Wednesday that the brand has sold out its remaining production run of fully gas-powered models, per Reuters.\nFrom here on out, all new Lambos sold will be electrified in some manner. First up will be plug-in hybrid replacements for the Aventador and Huracan supercars and a plug-in hybrid Urus SUV. Later this decade, Lamborghini plans to launch its first all-electric vehicle.\nSince Lamborghini buyers order their cars far in advance, the company will continue churning out gas-powered vehicles for some time.\nThe decision to embrace electrification after decades defined by thunderous V12 engines ultimately came down to tightening emissions regulations around the world, Winkelmann told Insider in an interview earlier this year. The auto industry as a whole is in the midst of an expensive, messy transition to electric vehicles.\nBut just because Lamborghini is rethinking the way its cars are fueled, that doesn't mean it's going soft or losing touch with its roots. Winkelmann told Insider he is intent on giving Lamborghini buyers the adrenaline-pumping performance they expect — and more — while cutting the company's carbon footprint.\nThe company's first plug-in hybrid (a type of vehicle with more electric-only range and a bigger battery than a traditional hybrid) is set to hit driveways and climate-controlled 12-car garages in late 2023. Thanks to a V12, three electric motors, and a small battery, the Revuelto supercar can produce just over 1,000 horsepower and hit 62 mph in 2.5 seconds, Lamborghini estimates."
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:textStyle="italic">
+
+
+            </TextView>
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

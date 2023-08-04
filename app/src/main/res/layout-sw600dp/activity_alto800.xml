@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".alto800">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.denzcoskun.imageslider.ImageSlider
+                        android:id="@+id/alto800_slider"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        app:iss_auto_cycle="true"
+                        app:iss_corner_radius="10"
+                        app:iss_delay="1000"
+                        app:iss_period="1000"
+                        app:iss_title_background="@drawable/default_gradient" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            
+
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_marginStart="10dp"
+                            android:background="@color/white"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/popular_1"
+                                android:layout_width="match_parent"
+                                android:layout_height="130dp">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:text="Maruti Suzuki Fronx"
+                                android:textColor="@color/black"
+                                android:textSize="20dp"
+                                android:textStyle="normal">
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:text="Rs. 6.00 - 10.00 Lakh"
+                                android:textColor="@color/black"
+                                android:textSize="20dp">
+
+                            </TextView>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_marginLeft="10dp"
+                            android:background="@color/white"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/popular_2"
+                                android:layout_width="match_parent"
+                                android:layout_height="130dp">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:text="Mahindra Scorpio classic "
+                                android:textColor="@color/black"
+                                android:textSize="20dp"
+                                android:textStyle="normal">
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:text="Rs. 59.00 - 60.00 Lakh"
+                                android:textColor="@color/black"
+                                android:textSize="20dp">
+
+                            </TextView>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_marginLeft="10dp"
+                            android:background="@color/white"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/popular_3"
+                                android:layout_width="match_parent"
+                                android:layout_height="130dp">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:text="Mahindra Scorpio N"
+                                android:textColor="@color/black"
+                                android:textSize="20dp"
+                                android:textStyle="normal">
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:text="Rs. 11.00 - 19.00 Lakh"
+                                android:textColor="@color/black"
+                                android:textSize="20dp">
+
+                            </TextView>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_marginLeft="10dp"
+                            android:background="@color/white"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/popular_4"
+                                android:layout_width="match_parent"
+                                android:layout_height="130dp">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:text="Mahindra Thar"
+                                android:textColor="@color/black"
+                                android:textSize="20dp"
+                                android:textStyle="normal">
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:text="Rs. 32.00 - 37.00 Lakh"
+                                android:textColor="@color/black"
+                                android:textSize="20dp">
+
+                            </TextView>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_marginLeft="10dp"
+                            android:background="@color/white"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/popular_5"
+                                android:layout_width="match_parent"
+                                android:layout_height="130dp">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:text="Tata Harrier"
+                                android:textColor="@color/black"
+                                android:textSize="20dp"
+                                android:textStyle="normal">
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:text="Rs. 65.00 - 75.00 Lakh"
+                                android:textColor="@color/black"
+                                android:textSize="20dp">
+
+                            </TextView>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_marginLeft="10dp"
+                            android:background="@color/white"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/popular_6"
+                                android:layout_width="match_parent"
+                                android:layout_height="130dp">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:text="Maruti Suzuki Baleno"
+                                android:textColor="@color/black"
+                                android:textSize="20dp"
+                                android:textStyle="normal">
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:text="Rs. 10.00 - 17.00 Lakh"
+                                android:textColor="@color/black"
+                                android:textSize="20dp">
+
+                            </TextView>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_marginStart="10dp"
+                            android:background="@color/white"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/popular_7"
+                                android:layout_width="match_parent"
+                                android:layout_height="130dp">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:text="Tata Nexon"
+                                android:textColor="@color/black"
+                                android:textSize="20dp"
+                                android:textStyle="normal">
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:text="Rs. 26.00 - 32.00 Lakh"
+                                android:textColor="@color/black"
+                                android:textSize="20dp">
+
+                            </TextView>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_marginLeft="10dp"
+                            android:background="@color/white"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/popular_8"
+                                android:layout_width="match_parent"
+                                android:layout_height="130dp">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:text="@string/mahindra_xuv700"
+                                android:textColor="@color/black"
+                                android:textSize="20dp"
+                                android:textStyle="normal">
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:text="@string/rs_15_00_15_00_lakh"
+                                android:textColor="@color/black"
+                                android:textSize="20dp">
+
+                            </TextView>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_marginStart="10dp"
+                            android:background="@color/white"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="50dp"
+                                android:text="@string/load_more_cars"
+                                android:textAppearance="@color/grey_font"
+                                android:textSize="20dp"
+                                android:textStyle="italic">
+
+                            </TextView>
+
+
+                        </LinearLayout>
+
+
+                        <!-- Content to be scrolled horizontally -->
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+            
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

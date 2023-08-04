@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".news4">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:id="@+id/news4">
+            </ImageView>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Hyundai sells over 500 Ioniq 5 EVs in India"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold">
+
+
+            </TextView>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Hyundai claims to have sold more than 500 units of the Ioniq 5 in India since its launch in January this year.
+
+In India, the Ioniq 5 is available in a single, fully loaded variant priced at Rs 44.95 lakh (ex-showroom). The electric crossover is based on Hyundai's Electric-Global Modular Platform (E-GMP).
+
+The Ioniq 5 features a futuristic design with angular surfaces on the exterior. It comes with dual LED headlamps, pixelated LED tail lights, flush-fitting door handles and unique dual-tone alloys. The EV gets a minimalistic interior with a dual floating screen and a 2-spoke steering wheel.
+
+The Ioniq 5 is powered by a 72.6 kWh battery pack offering an ARAI-certified range of 631 km on a single charge. The car comes with a rear-mounted electric motor that makes 216 BHP and 350 Nm. It also supports 800V fast charging, which can charge the battery from 10-80% in 18 minutes."
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:textStyle="italic">
+
+
+            </TextView>
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

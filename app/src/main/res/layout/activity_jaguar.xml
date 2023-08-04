@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Toyota">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/jaguar1_click"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:id="@+id/jaguar1"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="top"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="XF">
+
+                </TextView>
+
+
+                <TextView
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="40dp"
+                    android:text="5 Star Safety | 13-19 kmpl | 177-247 bhp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Rs. 71.60 Lakh"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="80dp"
+                    android:text="onwards"
+                    android:textColor="@color/purple_200"
+                    android:textSize="13dp" />
+
+                <TextView
+
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Avg. Ex-Showroom price"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/jaguar2_click"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:id="@+id/jaguar2"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="top"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="F-Pace">
+
+                </TextView>
+
+
+                <TextView
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="40dp"
+                    android:text="5 Star Safety | 12-19 kmpl | 201-543 bhp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Rs. 77.41 Lakh"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="80dp"
+                    android:text="onwards"
+                    android:textColor="@color/purple_200"
+                    android:textSize="13dp" />
+
+                <TextView
+
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Avg. Ex-Showroom price"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/jaguar3_click"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:id="@+id/jaguar3"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="top"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="F-Type">
+
+                </TextView>
+
+
+                <TextView
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="40dp"
+                    android:text="9-12 kmpl | 296-567 bhp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Rs. 98.13 Lakh"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="80dp"
+                    android:text="onwards"
+                    android:textColor="@color/purple_200"
+                    android:textSize="13dp" />
+
+                <TextView
+
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Avg. Ex-Showroom price"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/jaguar4_click"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:id="@+id/jaguar4"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="top"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="I-Pace">
+
+                </TextView>
+
+
+                <TextView
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="40dp"
+                    android:text="5 Star Safety"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Rs. 1.20 Crore"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="80dp"
+                    android:text="onwards"
+                    android:textColor="@color/purple_200"
+                    android:textSize="13dp" />
+
+                <TextView
+
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Avg. Ex-Showroom price"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

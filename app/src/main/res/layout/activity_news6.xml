@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".news6">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:id="@+id/news6">
+            </ImageView>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Tata Motors at record high after UK-arm Jaguar Land Rover's strong commentary on growth, cash flow"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold">
+
+
+            </TextView>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Shares of Tata Motors hit a record high on Monday after the automaker's UK-arm Jaguar Land Rover (JLR) said that it expects to report positive free cash flow of £400 million in the June quarter of the current financial year.\nJLR also reported a 30 percent year-on-year growth in its wholesale volumes. Retail sales also crossed 1 lakh units, rising by 29 percent from last year.\nThe unit's order book remains strong at 185,000 units, reflecting strong client demand, the Tata Group company said in a BSE filing. The demand for Range Rover, Range Rover Sport and Defender is said to be particularly robust, representing 76 percent of the order book.\nThe rise in sales was on the back of continued improvement in chip supply and increased production levels.\nBrokerage firm CLSA was bullish on Tata Motors and advised investors to ‘buy’ the stock with a price target of Rs 690, indicating an upside of more than 11 percent from the stock’s previous close on Friday.\nCLSA said it expected Free Cash Flow of £1.5 billion/£1.7 billion in financial year 2024-2025 for JLR driven by 18 percent and 7 percent growth in wholesale volumes (including China JV) and an improved margin profile.\nAnother global financial services firm JPMorgan remained ‘neutral’ on Tata Motors. However, it raised the price target for the stock to Rs 540 per share.\nJPMorgan said JLR wholesale volumes were in-line with estimates and the Tata Motors stock already appeared to be baking in optimistic outcomes.\nIt pointed out that the company’s retail sales volume also grew sharply to but the order book declined by 15,000 units to 1,85,000 compared with the previous quarter.\nSum of JLR’s ‘retail + changes in order book’ was flat at 87,000 in the June quarter compared with the previous quarter. Notably, this was below 1,00,000 for the fourth consecutive quarter, said JPMorgan.\nShares of Tata Motors are trading 2 percent higher at Rs 630.60, and are among the top gainers on the Nifty 50 index."
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:textStyle="italic">
+
+
+            </TextView>
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

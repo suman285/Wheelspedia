@@ -1,0 +1,1863 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Toyota">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/merc1_click"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:id="@+id/merc1"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="top"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="A-Class Limousine">
+
+                </TextView>
+
+
+                <TextView
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="40dp"
+                    android:text="5 Star Safety | 17-21 kmpl | 147-161 bhp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Rs. 43.97 Lakh"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="80dp"
+                    android:text="onwards"
+                    android:textColor="@color/purple_200"
+                    android:textSize="13dp" />
+
+                <TextView
+
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Avg. Ex-Showroom price"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/merc2_click"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:id="@+id/merc2"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="top"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="GLA">
+
+                </TextView>
+
+
+                <TextView
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="40dp"
+                    android:text="17-20 kmpl | 161-188 bhp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Rs. 48.46 Lakh"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="80dp"
+                    android:text="onwards"
+                    android:textColor="@color/purple_200"
+                    android:textSize="13dp" />
+
+                <TextView
+
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Avg. Ex-Showroom price"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/merc3_click"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:id="@+id/merc3"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="top"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="AMG A35">
+
+                </TextView>
+
+
+                <TextView
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="40dp"
+                    android:text="5 Star Safety | 13 kmpl | 301 bhp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Rs. 58.00 Lakh"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="80dp"
+                    android:text="onwards"
+                    android:textColor="@color/purple_200"
+                    android:textSize="13dp" />
+
+                <TextView
+
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Avg. Ex-Showroom price"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/merc4_click"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:id="@+id/merc4"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="top"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="C-Class">
+
+                </TextView>
+
+
+                <TextView
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="40dp"
+                    android:text="197-261 bhp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Rs. 59.99 Lakh"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="80dp"
+                    android:text="onwards"
+                    android:textColor="@color/purple_200"
+                    android:textSize="13dp" />
+
+                <TextView
+
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Avg. Ex-Showroom price"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/merc5_click"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:id="@+id/merc5"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="top"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="GLC">
+
+                </TextView>
+
+
+                <TextView
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="40dp"
+                    android:text="5 Star Safety | 12-17 kmpl | 192-194 bhp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Rs. 61.99 Lakh"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="80dp"
+                    android:text="onwards"
+                    android:textColor="@color/purple_200"
+                    android:textSize="13dp" />
+
+                <TextView
+
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Avg. Ex-Showroom price"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/merc6_click"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:id="@+id/merc6"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="top"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="AMG GLA35">
+
+                </TextView>
+
+
+                <TextView
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="40dp"
+                    android:text="13 kmpl | 302 bhp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Rs. 63.45 Lakh"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="80dp"
+                    android:text="onwards"
+                    android:textColor="@color/purple_200"
+                    android:textSize="13dp" />
+
+                <TextView
+
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Avg. Ex-Showroom price"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/merc7_click"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:id="@+id/merc7"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="top"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="GLB">
+
+                </TextView>
+
+
+                <TextView
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="40dp"
+                    android:text="5 Star Safety | 160-188 bhp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Rs. 63.80 Lakh"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="80dp"
+                    android:text="onwards"
+                    android:textColor="@color/purple_200"
+                    android:textSize="13dp" />
+
+                <TextView
+
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Avg. Ex-Showroom price"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/merc8_click"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:id="@+id/merc8"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="top"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="GLC Coupe">
+
+                </TextView>
+
+
+                <TextView
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="40dp"
+                    android:text="5 Star Safety | 12-16 kmpl | 241-255 bhp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Rs. 72.46 Lakh"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="80dp"
+                    android:text="onwards"
+                    android:textColor="@color/purple_200"
+                    android:textSize="13dp" />
+
+                <TextView
+
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Avg. Ex-Showroom price"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/merc9_click"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:id="@+id/merc9"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="top"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="EQB">
+
+                </TextView>
+
+
+                <TextView
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="40dp"
+                    android:text="5 Star Safety"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Rs. 74.50 Lakh"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="80dp"
+                    android:text="onwards"
+                    android:textColor="@color/purple_200"
+                    android:textSize="13dp" />
+
+                <TextView
+
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Avg. Ex-Showroom price"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/merc10_click"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:id="@+id/merc10"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="top"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="E-Class">
+
+                </TextView>
+
+
+                <TextView
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="40dp"
+                    android:text="5 Star Safety | 192-282 bhp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Rs. 74.95 Lakh"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="80dp"
+                    android:text="onwards"
+                    android:textColor="@color/purple_200"
+                    android:textSize="13dp" />
+
+                <TextView
+
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Avg. Ex-Showroom price"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/merc11_click"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:id="@+id/merc11"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="top"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="AMG A45 S">
+
+                </TextView>
+
+
+                <TextView
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="40dp"
+                    android:text="5 Star Safety | 12 kmpl | 421 bhp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Rs. 83.79 Lakh"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="80dp"
+                    android:text="onwards"
+                    android:textColor="@color/purple_200"
+                    android:textSize="13dp" />
+
+                <TextView
+
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Avg. Ex-Showroom price"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/merc12_click"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:id="@+id/merc12"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="top"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="AMG GLC43 Coupe">
+
+                </TextView>
+
+
+                <TextView
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="40dp"
+                    android:text="5 Star Safety | 9 kmpl | 385 bhp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Rs. 86.99 Lakh"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="80dp"
+                    android:text="onwards"
+                    android:textColor="@color/purple_200"
+                    android:textSize="13dp" />
+
+                <TextView
+
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Avg. Ex-Showroom price"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/merc13_click"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:id="@+id/merc13"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="top"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="GLE">
+
+                </TextView>
+
+
+                <TextView
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="40dp"
+                    android:text="5 Star Safety | 11-14 kmpl | 241-362 bhp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Rs. 89.87 Lakh"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="80dp"
+                    android:text="onwards"
+                    android:textColor="@color/purple_200"
+                    android:textSize="13dp" />
+
+                <TextView
+
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Avg. Ex-Showroom price"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/merc14_click"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:id="@+id/merc14"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="top"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="EQC">
+
+                </TextView>
+
+
+                <TextView
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="40dp"
+                    android:text="5 Star Safety"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Rs. 99.51 Lakh"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="80dp"
+                    android:text="onwards"
+                    android:textColor="@color/purple_200"
+                    android:textSize="13dp" />
+
+                <TextView
+
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Avg. Ex-Showroom price"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/merc15_click"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:id="@+id/merc15"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="top"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="AMG E53">
+
+                </TextView>
+
+
+                <TextView
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="40dp"
+                    android:text="5 Star Safety | 11 kmpl | 429 bhp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Rs. 1.06 Crore"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="80dp"
+                    android:text="onwards"
+                    android:textColor="@color/purple_200"
+                    android:textSize="13dp" />
+
+                <TextView
+
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Avg. Ex-Showroom price"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/merc16_click"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:id="@+id/merc16"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="top"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="GLS">
+
+                </TextView>
+
+
+                <TextView
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="40dp"
+                    android:text="10-12 kmpl | 326-362 bhp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Rs. 1.21 Crore"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="80dp"
+                    android:text="onwards"
+                    android:textColor="@color/purple_200"
+                    android:textSize="13dp" />
+
+                <TextView
+
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Avg. Ex-Showroom price"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/merc17_click"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:id="@+id/merc17"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="top"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="AMG E53 Cabriolet">
+
+                </TextView>
+
+
+                <TextView
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="40dp"
+                    android:text="5 Star Safety | 429 bhp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Rs. 1.30 Crore"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="80dp"
+                    android:text="onwards"
+                    android:textColor="@color/purple_200"
+                    android:textSize="13dp" />
+
+                <TextView
+
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Avg. Ex-Showroom price"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/merc18_click"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:id="@+id/merc18"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="top"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="EQS">
+
+                </TextView>
+
+
+                <TextView
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="40dp"
+                    android:text="5 Star Safety"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Rs. 1.59 Crore"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="80dp"
+                    android:text="onwards"
+                    android:textColor="@color/purple_200"
+                    android:textSize="13dp" />
+
+                <TextView
+
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Avg. Ex-Showroom price"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/merc19_click"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:id="@+id/merc19"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="top"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="S-Class">
+
+                </TextView>
+
+
+                <TextView
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="40dp"
+                    android:text="12-15 kmpl | 281-362 bhp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Rs. 1.71 Crore"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="80dp"
+                    android:text="onwards"
+                    android:textColor="@color/purple_200"
+                    android:textSize="13dp" />
+
+                <TextView
+
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Avg. Ex-Showroom price"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/merc20_click"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:id="@+id/merc20"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="top"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="AMG GLE Coupe">
+
+                </TextView>
+
+
+                <TextView
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="40dp"
+                    android:text="5 Star Safety | 8-9 kmpl | 429-603 bhp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Rs. 1.71 Crore"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="80dp"
+                    android:text="onwards"
+                    android:textColor="@color/purple_200"
+                    android:textSize="13dp" />
+
+                <TextView
+
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Avg. Ex-Showroom price"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/merc21_click"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:id="@+id/merc21"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="top"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="G-Class">
+
+                </TextView>
+
+
+                <TextView
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="40dp"
+                    android:text="5 Star Safety | 6-9 kmpl | 282-577 bhp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Rs. 1.72 Crore"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="80dp"
+                    android:text="onwards"
+                    android:textColor="@color/purple_200"
+                    android:textSize="13dp" />
+
+                <TextView
+
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Avg. Ex-Showroom price"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/merc23_click"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:id="@+id/merc23"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="top"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="AMG EQS">
+
+                </TextView>
+
+
+                <TextView
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="40dp"
+                    android:text="5 Star Safety"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Rs. 2.45 Crore"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="80dp"
+                    android:text="onwards"
+                    android:textColor="@color/purple_200"
+                    android:textSize="13dp" />
+
+                <TextView
+
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Avg. Ex-Showroom price"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/merc24_click"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:id="@+id/merc24"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="top"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="Maybach S-Class">
+
+                </TextView>
+
+
+                <TextView
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="40dp"
+                    android:text="7-9 kmpl | 469-603 bhp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Rs. 2.69 Crore"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="80dp"
+                    android:text="onwards"
+                    android:textColor="@color/purple_200"
+                    android:textSize="13dp" />
+
+                <TextView
+
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Avg. Ex-Showroom price"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/merc25_click"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:id="@+id/merc25"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23dp"
+                    android:gravity="top"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="AMG GT 63 S 4MATIC Plus">
+
+                </TextView>
+
+
+                <TextView
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="40dp"
+                    android:text="8 kmpl | 630 bhp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Rs. 2.70 Crore"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="80dp"
+                    android:text="onwards"
+                    android:textColor="@color/purple_200"
+                    android:textSize="13dp" />
+
+                <TextView
+
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Avg. Ex-Showroom price"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".news1">
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:id="@+id/news1">
+            </ImageView>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Exter ‘will have a good NCAP rating’: Hyundai COO Tarun Garg"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold">
+
+
+            </TextView>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/under_global_ncap_s_recently_revised_crash_test_protocols_for_its_safer_cars_for_india_programme_the_uk_based_vehicle_safety_watchdog_mandates_esc_as_a_standalone_option_as_well_as_an_assessment_on_side_impact_and_pedestrian_protection_tests_for_a_car_to_be_evaluated_for_a_5_star_safety_rating_hyundai_is_also_considering_getting_the_exter_crash_tested_under_the_upcoming_bharat_new_car_assessment_programme_crash_regime_which_is_likely_to_be_introduced_in_the_country_from_october_1_2023_as_per_the_draft_bharat_ncap_protocol_issued_by_the_ministry_of_road_transport_amp_highways_morth_the_india_specific_voluntary_crash_tests_take_references_from_the_revised_july_2022_to_december_2025_global_ncap_protocols_and_demand_esc_pole_side_impact_pedestrian_protection_as_well_as_seat_belt_reminders_as_the_qualifying_safety_requirements_for_a_car_to_aim_for_five_stars_in_its_tests_hyundai_india_says_it_s_eyeing_a_good_ncap_rating_for_the_exter_safety_has_been_a_key_focus_area_with_the_exter_and_with_all_the_structural_changes_that_we_have_done_along_with_offering_six_airbags_as_standard_and_esc_right_from_the_base_trim_we_will_have_a_good_ncap_rating_tarun_garg_chief_operating_officer_at_hmil_told_our_sister_publication_autocar_professional_for_global_ncap_safety_tests_esc_has_become_an_important_requirement_to_have_a_good_star_rating_the_new_protocols_state_that_esc_should_be_available_as_standard_in_the_bestselling_variants_or_should_be_available_in_equal_numbers_in_other_variants_hyundai_has_done_just_that_by_offering_esc_as_standard_on_most_variants_and_as_an_option_on_the_base_variant_exhaustive_list_of_safety_features_while_hyundai_india_has_received_flak_in_the_past_for_some_of_its_popular_models_like_the_midsize_creta_suv_scoring_only_three_stars_in_the_gncap_crash_tests_along_with_an_unstable_body_shell_remark_it_is_now_looking_to_make_amends_the_exter_gets_a_mix_of_active_and_passive_safety_kit_on_board_including_six_airbags_seat_belt_reminders_and_three_point_seat_belts_for_all_seats_across_all_five_trims_it_additionally_gets_the_option_of_advanced_safety_features_including_esc_vehicle_stability_management_vsm_hill_assist_control_hac_isofix_child_seat_mounts_a_direct_tpms_tyre_pressure_monitoring_system_along_with_a_dual_facing_dashboard_camera_that_records_cabin_as_well_as_outside_footage_while_hyundai_motor_india_is_confident_of_a_good_crash_test_rating_for_its_latest_set_of_wheels_only_a_global_ncap_or_bharat_ncap_crash_test_result_will_determine_if_the_carmaker_is_walking_the_safety_talk"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:textStyle="italic">
+
+
+            </TextView>
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
